@@ -5,7 +5,7 @@
 
     try {
         $servidor = "localhost"; //localhost, ip ou host
-        $banco = "app_topicos"; //nome do banco de dados
+        $banco = "api"; //nome do banco de dados
         $usuario = "root"; //usuario
         $senha = ""; //senha de conexao
         $pdo = new PDO ("mysql:host=$servidor;dbname=$banco;charset=utf8",
